@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Legal view</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Legal view</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-DiagramModelGroup"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-DiagramModelGroup" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+                    <!-- Analysis -->
+
+						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap"></div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+						<div role="tabpanel" class="tab-pane" id="elements">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<tr>
+											    <td> <a href="../elements/id-cea3ef3a90174defbabab644877f1524.html" target="element"> Shared Legal Content </a> </td>
+											    <td> <a href="../elements/id-cea3ef3a90174defbabab644877f1524.html" target="element" class="i18n-elementtype-Grouping">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-3ba1184b6d8f4f90a6a545a3f4a909d5.html" target="element"> Legal Functional content </a> </td>
+											    <td> <a href="../elements/id-3ba1184b6d8f4f90a6a545a3f4a909d5.html" target="element" class="i18n-elementtype-Grouping">
+											    </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-14772182e2524f9ca9b33d64f028a080.html" target="element"> Delegation of Powers Provisioning Digital Public Services </a> </td>
+													    <td> <a href="../elements/id-14772182e2524f9ca9b33d64f028a080.html" target="element" class="i18n-elementtype-Assessment">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-239da5583a0d4e4aae8581f680e56fd5.html" target="element"> Public Policy </a> </td>
+													    <td> <a href="../elements/id-239da5583a0d4e4aae8581f680e56fd5.html" target="element" class="i18n-elementtype-CourseOfAction">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-73266746ace7491a8f865e8c1d2cd45e.html" target="element"> Legal Act </a> </td>
+													    <td> <a href="../elements/id-73266746ace7491a8f865e8c1d2cd45e.html" target="element" class="i18n-elementtype-Requirement">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-dd981c061214429381c2512cb11b922f.html" target="element"> Legal Act Representation </a> </td>
+													    <td> <a href="../elements/id-dd981c061214429381c2512cb11b922f.html" target="element" class="i18n-elementtype-Representation">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-fc3b2c99b1fd481cada28f4fd376d896.html" target="element"> Granularity of Legal Requirements </a> </td>
+													    <td> <a href="../elements/id-fc3b2c99b1fd481cada28f4fd376d896.html" target="element" class="i18n-elementtype-Assessment">
+													    </a> </td>
+													</tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/id-c69dd676b50c482ca0500a037ddb2428.html" target="element"> Legal Governance content </a> </td>
+											    <td> <a href="../elements/id-c69dd676b50c482ca0500a037ddb2428.html" target="element" class="i18n-elementtype-Grouping">
+											    </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-c9215434691f48579063e178d785360e.html" target="element"> Public Policy Constraint </a> </td>
+													    <td> <a href="../elements/id-c9215434691f48579063e178d785360e.html" target="element" class="i18n-elementtype-Constraint">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-a9b0b54565354fbd853bab64d3772183.html" target="element"> Public Policy Context </a> </td>
+													    <td> <a href="../elements/id-a9b0b54565354fbd853bab64d3772183.html" target="element" class="i18n-elementtype-Constraint">
+													    </a> </td>
+													</tr>
+
+											
+
+								</tbody>
+							</table>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="relationships">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+										<th class="i18n-source"></th>
+										<th class="i18n-target"></th>
+									</tr>
+								</thead>
+								<tbody>
+																	<tr>
+																		<td> <a href="../elements/id-358e79359779490c9714efa013509514.html" target="element"> regulates </a> </td>
+																		<td> <a href="../elements/id-358e79359779490c9714efa013509514.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-cea3ef3a90174defbabab644877f1524.html" target="element"> Shared Legal Content </a> </td>
+																		<td> <a href="../elements/id-4459b7de117440e5b8261265c2d22537.html" target="element"> Shared Knowledge Content </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-334a3a9121644071844dd086d5ec1224.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-334a3a9121644071844dd086d5ec1224.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-cea3ef3a90174defbabab644877f1524.html" target="element"> Shared Legal Content </a> </td>
+																		<td> <a href="../elements/id-3ba1184b6d8f4f90a6a545a3f4a909d5.html" target="element"> Legal Functional content </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-b84770572b5a42c5ac4c0e05f38655fb.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-b84770572b5a42c5ac4c0e05f38655fb.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-cea3ef3a90174defbabab644877f1524.html" target="element"> Shared Legal Content </a> </td>
+																		<td> <a href="../elements/id-c69dd676b50c482ca0500a037ddb2428.html" target="element"> Legal Governance content </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-dee47bc1a9064b6cbbef1f73677dd148.html" target="element"> regulates </a> </td>
+																		<td> <a href="../elements/id-dee47bc1a9064b6cbbef1f73677dd148.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-cea3ef3a90174defbabab644877f1524.html" target="element"> Shared Legal Content </a> </td>
+																		<td> <a href="../elements/id-46cd9187227c4ab781b0046d2a12bc48.html" target="element"> Shared Organisational Content </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-3af06ab5c8d142d7bd7ba7d97abbb8c6.html" target="element"> regulates </a> </td>
+																		<td> <a href="../elements/id-3af06ab5c8d142d7bd7ba7d97abbb8c6.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-cea3ef3a90174defbabab644877f1524.html" target="element"> Shared Legal Content </a> </td>
+																		<td> <a href="../elements/id-4b52172d7d694ede8ec3d4a9d50bd668.html" target="element"> Shared Infrastructure Content </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-29e5f6ceabdd40539d5f318c6dc72d01.html" target="element"> regulates </a> </td>
+																		<td> <a href="../elements/id-29e5f6ceabdd40539d5f318c6dc72d01.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-cea3ef3a90174defbabab644877f1524.html" target="element"> Shared Legal Content </a> </td>
+																		<td> <a href="../elements/id-835ebdc325634c11b825ac88546f927e.html" target="element"> Shared Application Content </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-fe76a6d615d64d169cd8c09ca406e979.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-fe76a6d615d64d169cd8c09ca406e979.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-3ba1184b6d8f4f90a6a545a3f4a909d5.html" target="element"> Legal Functional content </a> </td>
+																		<td> <a href="../elements/id-14772182e2524f9ca9b33d64f028a080.html" target="element"> Delegation of Powers Provisioning Digital Public Services </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-844d08c0452f4b9b9e5d781b284b7821.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-844d08c0452f4b9b9e5d781b284b7821.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-3ba1184b6d8f4f90a6a545a3f4a909d5.html" target="element"> Legal Functional content </a> </td>
+																		<td> <a href="../elements/id-239da5583a0d4e4aae8581f680e56fd5.html" target="element"> Public Policy </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-608d2929fd204cf1a1a6e2a15352b5f4.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-608d2929fd204cf1a1a6e2a15352b5f4.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-3ba1184b6d8f4f90a6a545a3f4a909d5.html" target="element"> Legal Functional content </a> </td>
+																		<td> <a href="../elements/id-73266746ace7491a8f865e8c1d2cd45e.html" target="element"> Legal Act </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-9df86c63b20e470ea156d7eef12a073a.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-9df86c63b20e470ea156d7eef12a073a.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-3ba1184b6d8f4f90a6a545a3f4a909d5.html" target="element"> Legal Functional content </a> </td>
+																		<td> <a href="../elements/id-dd981c061214429381c2512cb11b922f.html" target="element"> Legal Act Representation </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-a67e1440a90d4139911d163a7f7e93c8.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-a67e1440a90d4139911d163a7f7e93c8.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-3ba1184b6d8f4f90a6a545a3f4a909d5.html" target="element"> Legal Functional content </a> </td>
+																		<td> <a href="../elements/id-fc3b2c99b1fd481cada28f4fd376d896.html" target="element"> Granularity of Legal Requirements </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-99b49c192f864293ae2029a10ad91605.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-99b49c192f864293ae2029a10ad91605.html" target="element" class="i18n-elementtype-SpecializationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-3ba1184b6d8f4f90a6a545a3f4a909d5.html" target="element"> Legal Functional content </a> </td>
+																		<td> <a href="../elements/id-665424356d284a38b77d3ae692435ae6.html" target="element"> Data Representation </a> </td>
+																	</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-977f9ae8929d4d04b1e51c358ae1e1ef.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-977f9ae8929d4d04b1e51c358ae1e1ef.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-14772182e2524f9ca9b33d64f028a080.html" target="element"> Delegation of Powers Provisioning Digital Public Services </a> </td>
+																				<td> <a href="../elements/id-239da5583a0d4e4aae8581f680e56fd5.html" target="element"> Public Policy </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-3bd1872f239f41a28ba0b7cc40d63095.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-3bd1872f239f41a28ba0b7cc40d63095.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-14772182e2524f9ca9b33d64f028a080.html" target="element"> Delegation of Powers Provisioning Digital Public Services </a> </td>
+																				<td> <a href="../elements/id-a9b0b54565354fbd853bab64d3772183.html" target="element"> Public Policy Context </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-c37638aa45bc43a5b898adf41b86311e.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-c37638aa45bc43a5b898adf41b86311e.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-239da5583a0d4e4aae8581f680e56fd5.html" target="element"> Public Policy </a> </td>
+																				<td> <a href="../elements/id-c9215434691f48579063e178d785360e.html" target="element"> Public Policy Constraint </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-b10b6f9ec6b741ac8217965e532cf825.html" target="element"> realizes </a> </td>
+																				<td> <a href="../elements/id-b10b6f9ec6b741ac8217965e532cf825.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-73266746ace7491a8f865e8c1d2cd45e.html" target="element"> Legal Act </a> </td>
+																				<td> <a href="../elements/id-239da5583a0d4e4aae8581f680e56fd5.html" target="element"> Public Policy </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-351cc7148eb34eea98b8481f46a68460.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-351cc7148eb34eea98b8481f46a68460.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-dd981c061214429381c2512cb11b922f.html" target="element"> Legal Act Representation </a> </td>
+																				<td> <a href="../elements/id-73266746ace7491a8f865e8c1d2cd45e.html" target="element"> Legal Act </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-c248c482f460414f86dcefbfa1d3369c.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-c248c482f460414f86dcefbfa1d3369c.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-fc3b2c99b1fd481cada28f4fd376d896.html" target="element"> Granularity of Legal Requirements </a> </td>
+																				<td> <a href="../elements/id-73266746ace7491a8f865e8c1d2cd45e.html" target="element"> Legal Act </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-24a450574fe743b281d57a4d401c0043.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-24a450574fe743b281d57a4d401c0043.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-fc3b2c99b1fd481cada28f4fd376d896.html" target="element"> Granularity of Legal Requirements </a> </td>
+																				<td> <a href="../elements/id-a9b0b54565354fbd853bab64d3772183.html" target="element"> Public Policy Context </a> </td>
+																			</tr>
+
+											
+																	<tr>
+																		<td> <a href="../elements/id-bdfc0399e4694741bab7161e745b34cc.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-bdfc0399e4694741bab7161e745b34cc.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-c69dd676b50c482ca0500a037ddb2428.html" target="element"> Legal Governance content </a> </td>
+																		<td> <a href="../elements/id-3ba1184b6d8f4f90a6a545a3f4a909d5.html" target="element"> Legal Functional content </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-a54d6c3db68f46219b7c2c25c8daa909.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-a54d6c3db68f46219b7c2c25c8daa909.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-c69dd676b50c482ca0500a037ddb2428.html" target="element"> Legal Governance content </a> </td>
+																		<td> <a href="../elements/id-c9215434691f48579063e178d785360e.html" target="element"> Public Policy Constraint </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-b465fd21929d46f6bedf4a5d5e36e404.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-b465fd21929d46f6bedf4a5d5e36e404.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-c69dd676b50c482ca0500a037ddb2428.html" target="element"> Legal Governance content </a> </td>
+																		<td> <a href="../elements/id-a9b0b54565354fbd853bab64d3772183.html" target="element"> Public Policy Context </a> </td>
+																	</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-2fe2eeedb20945c68763677b0a73ab6c.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-2fe2eeedb20945c68763677b0a73ab6c.html" target="element" class="i18n-elementtype-SpecializationRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-c9215434691f48579063e178d785360e.html" target="element"> Public Policy Constraint </a> </td>
+																				<td> <a href="../elements/id-a9b0b54565354fbd853bab64d3772183.html" target="element"> Public Policy Context </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-924c0bb29d40481fb2af0c5e84cc898b.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-924c0bb29d40481fb2af0c5e84cc898b.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-a9b0b54565354fbd853bab64d3772183.html" target="element"> Public Policy Context </a> </td>
+																				<td> <a href="../elements/id-03d578ac38c948fdbb1cae79e4822202.html" target="element"> Interoperable Digital Public Service Implementation Orientation </a> </td>
+																			</tr>
+
+											
+
+								</tbody>
+							</table>
+						</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>

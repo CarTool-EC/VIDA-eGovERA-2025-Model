@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Solution Building Block</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Solution Building Block</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-Artifact"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-Artifact" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+                    <!-- Analysis -->
+                    	<li role="presentation"><a href="#analysis" aria-controls="analysis" role="tab" data-toggle="tab" class="i18n-analysis"></a></li>
+
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap">Definition: Solution Building Block ABB is an Artifact that enables the implementation of one or more EIRA Architecture Building Blocks of a European Public Service.
+
+Source: ISA2
+
+Source reference: https://ec.europa.eu/isa2/sites/default/files/e-government_core_vocabularies_handbook.pdf
+
+Additional information: Solution Builsing Block ABB is formulated as an agreed normative statement in design terms on a legal, organisational, semantic, or technical attribute of an European Public Service. On the technical view, a Solution Building Block is a specific software component that it might be either procured or developed of a To-Be Interoperable European Solution or that it is integrated in an As-Is Interoperable European Solution
+
+eira:iopDimension: Structural IoP
+
+LOST view: OV-Data Spaces
+
+eira:iopSaliency: The Solution Building Block ABB is salient for the technical interoperability due to establishing the technical aspects related to the definition of architecture and public service architectural principles to support public administration in the service delivery.
+
+Identifier: http://data.europa.eu/dr8/SolutionBuildingBlockArtifact
+
+ABB name: eira:SolutionBuildingBlockArtifact
+
+EIRA concept: eira:ArchitectureBuildingBlock
+
+Last modification: 2023-05-25
+
+dct:identifier: http://data.europa.eu/dr8/SolutionBuildingBlockArtifact
+
+</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr><td>eira:PURI</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/SolutionBuildingBlockArtifact</td></tr><tr><td>dct:type</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:SolutionBuildingBlockArtifact</td></tr><tr><td>dct:modified</td><td class="convertlinks no-margin" style="white-space:pre-wrap">25/05/2023</td></tr><tr><td>eira:synonym</td><td class="convertlinks no-margin" style="white-space:pre-wrap"></td></tr><tr><td>skos:definition</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Solution Building Block ABB is an Artifact that enables the implementation of one or more EIRA Architecture Building Blocks of a European Public Service.</td></tr><tr><td>eira:definitionSource</td><td class="convertlinks no-margin" style="white-space:pre-wrap">ISA2</td></tr><tr><td>eira:definitionSourceReference</td><td class="convertlinks no-margin" style="white-space:pre-wrap">https://ec.europa.eu/isa2/sites/default/files/e-government_core_vocabularies_handbook.pdf</td></tr><tr><td>skos:example</td><td class="convertlinks no-margin" style="white-space:pre-wrap"></td></tr><tr><td>eira:iopSaliency</td><td class="convertlinks no-margin" style="white-space:pre-wrap">The Solution Building Block ABB is salient for the technical interoperability due to establishing the technical aspects related to the definition of architecture and public service architectural principles to support public administration in the service delivery.</td></tr><tr><td>skos:note</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Solution Builsing Block ABB is formulated as an agreed normative statement in design terms on a legal, organisational, semantic, or technical attribute of an European Public Service. On the technical view, a Solution Building Block is a specific software component that it might be either procured or developed of a To-Be Interoperable European Solution or that it is integrated in an As-Is Interoperable European Solution</td></tr><tr><td>eira:concept</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:ArchitectureBuildingBlock</td></tr><tr><td>eira:iopDimension</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Behavioral IoP</td></tr><tr><td>eira:iopDimension</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Behavioral IoP</td></tr><tr><td>dct:identifier</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/SolutionBuildingBlockArtifact</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Technical view - application</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Semantic view</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Technical view - infrastructure</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Organisational view</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Legal view</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Technical view - application</td></tr>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr id="used-in-views-6a8b3a5a">
+																	<td><a href="../views/6a8b3a5a.html" target="view" title="Technical view - application"> Technical view - application </a></td>
+																	<td><span class="i18n-viewpoint-layered" /></td>
+																</tr><tr id="used-in-views-13cfc7d1">
+																	<td><a href="../views/13cfc7d1.html" target="view" title="Semantic view"> Semantic view </a></td>
+																	<td><span class="i18n-viewpoint-layered" /></td>
+																</tr><tr id="used-in-views-7ab3e6db">
+																	<td><a href="../views/7ab3e6db.html" target="view" title="Organisational view"> Organisational view </a></td>
+																	<td><span class="i18n-viewpoint-layered" /></td>
+																</tr><tr id="used-in-views-710e28b1">
+																	<td><a href="../views/710e28b1.html" target="view" title="Legal view"> Legal view </a></td>
+																	<td><span class="i18n-viewpoint-layered" /></td>
+																</tr><tr id="used-in-views-26adaffa">
+																	<td><a href="../views/26adaffa.html" target="view" title="Technical view - infrastructure"> Technical view - infrastructure </a></td>
+																	<td><span class="i18n-viewpoint-layered" /></td>
+																</tr>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+									<tr>
+											<td><a href="../elements/id-06995495aa25437d96d15fc7d06f2f2d.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
+											<td><a href="../elements/id-f6621cfb88b947a1a33e8f88d971d70c.html" target="element"> Solution Building Block</a></td>
+											<td><a href="../elements/id-7d674c659b6c4e17821205fd2179d991.html" target="element"> Semantic Functional content</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-126aa04d817348218b27f8a924a68672.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
+											<td><a href="../elements/id-f6621cfb88b947a1a33e8f88d971d70c.html" target="element"> Solution Building Block</a></td>
+											<td><a href="../elements/id-9c5a19985b694fed92d63d0bf51b6763.html" target="element"> Technical Governance content</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-1d2319cd53ac408a8034223adc45ecbd.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
+											<td><a href="../elements/id-f6621cfb88b947a1a33e8f88d971d70c.html" target="element"> Solution Building Block</a></td>
+											<td><a href="../elements/id-49ad9bc91313418a98aeeec21f12fb8d.html" target="element"> Organisational Governance content</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-6541af81578b47f4b365bfbf3331bbcd.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
+											<td><a href="../elements/id-f6621cfb88b947a1a33e8f88d971d70c.html" target="element"> Solution Building Block</a></td>
+											<td><a href="../elements/id-77c76ef4e29f427f9345e3a00724c61c.html" target="element"> Interoperability Specification</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-757a1f22fe6e4169be4878b61f5d9ad0.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
+											<td><a href="../elements/id-f6621cfb88b947a1a33e8f88d971d70c.html" target="element"> Solution Building Block</a></td>
+											<td><a href="../elements/id-5d8e6f9916a14aaa8cc75b1f77081c0f.html" target="element"> Digital Solution Requirement</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-7ebcea030778453fb96273e6dc5ffaf0.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
+											<td><a href="../elements/id-f6621cfb88b947a1a33e8f88d971d70c.html" target="element"> Solution Building Block</a></td>
+											<td><a href="../elements/id-3a4656efc7394431afb6fe521f911494.html" target="element"> Technical Infrastructure Functional content</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-933da65084f146e5b73747af8292e584.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
+											<td><a href="../elements/id-f6621cfb88b947a1a33e8f88d971d70c.html" target="element"> Solution Building Block</a></td>
+											<td><a href="../elements/id-3ba1184b6d8f4f90a6a545a3f4a909d5.html" target="element"> Legal Functional content</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-9831ac7fd0e448e09b192c382d619135.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
+											<td><a href="../elements/id-f6621cfb88b947a1a33e8f88d971d70c.html" target="element"> Solution Building Block</a></td>
+											<td><a href="../elements/id-8b7ff8b0880a4f2db61fdc906101a0c3.html" target="element"> Semantic Governance content</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-9bec669911b4499b88c9b93033187c97.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
+											<td><a href="../elements/id-f6621cfb88b947a1a33e8f88d971d70c.html" target="element"> Solution Building Block</a></td>
+											<td><a href="../elements/id-44970a197c26479081e9819455fad481.html" target="element"> Technical Application Functional content</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-e11c23721449470c987b465e831dc86a.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
+											<td><a href="../elements/id-f6621cfb88b947a1a33e8f88d971d70c.html" target="element"> Solution Building Block</a></td>
+											<td><a href="../elements/id-c69dd676b50c482ca0500a037ddb2428.html" target="element"> Legal Governance content</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-e147d6e52c3042b1b6e5320301a12235.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
+											<td><a href="../elements/id-f6621cfb88b947a1a33e8f88d971d70c.html" target="element"> Solution Building Block</a></td>
+											<td><a href="../elements/id-3f0755e9a4574e7ea36f8183185d593b.html" target="element"> Organisational Functional content</a></td>
+										</tr>
+							</tbody>
+						</table>
+					</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>
