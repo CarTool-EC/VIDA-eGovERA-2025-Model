@@ -2,7 +2,7 @@
 <html class="frame" lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
-	<title>Azure Files</title>
+	<title>Cloud Managed File Storage</title>
 
 	<!-- JQUERY -->
 	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
@@ -21,7 +21,7 @@
 
 		<div class="panel-heading root-panel-heading">
             <!-- Name -->
-               <b>Azure Files</b>
+               <b>Cloud Managed File Storage</b>
 
             <!-- If a View with Viewpoint -->
 			   (<span class="i18n-elementtype-TechnologyService"></span>)
@@ -48,7 +48,7 @@
 				<!-- Tab panes -->
 				<div class="tab-content">
 					<div role="tabpanel" class="tab-pane active" id="documentation">
-						<div class="convertlinks documentation" style="white-space:pre-wrap">Definition: Azure Files offers fully managed file shares in the cloud that are accessible via the industry standard Server Message Block (SMB) protocol, Network File System (NFS) protocol, and Azure Files REST API. Azure file shares can be mounted concurrently by cloud or on-premises deployments. SMB Azure file shares are accessible from Windows, Linux, and macOS clients. NFS Azure file shares are accessible from Linux clients. Additionally, SMB Azure file shares can be cached on Windows servers with Azure File Sync for fast access near where the data is being used.
+						<div class="convertlinks documentation" style="white-space:pre-wrap">Definition: Cloud Managed File Storage offers fully managed file shares in the cloud that are accessible via the industry standard Server Message Block (SMB) protocol, Network File System (NFS) protocol, and REST API. File shares can be mounted concurrently by cloud or on-premises deployments. SMB file shares are accessible from Windows, Linux, and macOS clients. NFS file shares are accessible from Linux clients.
 
 Source: Microsoft
 
@@ -64,9 +64,9 @@ LOST view: TVI-Central VIES Deployment Model
 
 eira:iopSaliency: File Storage ABB is salient for technical interoperability because it set up the data integration mechanism based on different files. This kind of file storage permit also ensures data provenance of the information considering file modification and creation.
 
-Identifier: http://data.europa.eu/dr8/AzureFilesTechnologyService
+Identifier: http://data.europa.eu/dr8/CloudFilesTechnologyService
 
-eira:ID: http://data.europa.eu/dr8/AzureFilesTechnologyService
+eira:ID: http://data.europa.eu/dr8/CloudFilesTechnologyService
 
 ABB name: eira:FileStorageTechnologyService
 
@@ -83,7 +83,7 @@ Last modification: 29/04/2024</div>
 								</tr>
 							</thead>
 							<tbody>
-								<tr><td>eira:ID</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/AzureFilesTechnologyService</td></tr><tr><td>eira:PURI</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/AzureFilesTechnologyService</td></tr><tr><td>eira:ABB</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:FileStorageTechnologyService</td></tr><tr><td>dct:modified</td><td class="convertlinks no-margin" style="white-space:pre-wrap">29/04/2024</td></tr><tr><td>eira:synonym</td><td class="convertlinks no-margin" style="white-space:pre-wrap"></td></tr><tr><td>skos:definition</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Azure Files offers fully managed file shares in the cloud that are accessible via the industry standard Server Message Block (SMB) protocol, Network File System (NFS) protocol, and Azure Files REST API. Azure file shares can be mounted concurrently by cloud or on-premises deployments. SMB Azure file shares are accessible from Windows, Linux, and macOS clients. NFS Azure file shares are accessible from Linux clients. Additionally, SMB Azure file shares can be cached on Windows servers with Azure File Sync for fast access near where the data is being used.</td></tr><tr><td>eira:definitionSource</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Microsoft</td></tr><tr><td>eira:definitionSourceReference</td><td class="convertlinks no-margin" style="white-space:pre-wrap">https://learn.microsoft.com/en-us/azure/storage/files/storage-files-introduction</td></tr><tr><td>skos:example</td><td class="convertlinks no-margin" style="white-space:pre-wrap">The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB): Central VIES is deployed on a cloud provider. The solution suggests using a managed kubernetes service for deploying most of the runtimes. The solution also requires file storage for backup files which are generated as part of the backup/restore service. VIES Solution requires a shared File System mechanism which is not attached to a particular instance/virtual machine, also does not require to support high throughput values in terms of i/o operations. Thus, Azure Files copes with this requirement.</td></tr><tr><td>eira:iopSaliency</td><td class="convertlinks no-margin" style="white-space:pre-wrap">File Storage ABB is salient for technical interoperability because it set up the data integration mechanism based on different files. This kind of file storage permit also ensures data provenance of the information considering file modification and creation.</td></tr><tr><td>skos:note</td><td class="convertlinks no-margin" style="white-space:pre-wrap"></td></tr><tr><td>eira:concept</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:SolutionBuildingBlock</td></tr><tr><td>eira:iopDimension</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Structural IoP</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">TVI-Central VIES Deployment Model</td></tr>
+								<tr><td>eira:ID</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/CloudFilesTechnologyService</td></tr><tr><td>eira:PURI</td><td class="convertlinks no-margin" style="white-space:pre-wrap">http://data.europa.eu/dr8/CloudFilesTechnologyService</td></tr><tr><td>eira:ABB</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:FileStorageTechnologyService</td></tr><tr><td>dct:modified</td><td class="convertlinks no-margin" style="white-space:pre-wrap">02/02/2026</td></tr><tr><td>eira:synonym</td><td class="convertlinks no-margin" style="white-space:pre-wrap"></td></tr><tr><td>skos:definition</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Cloud Managed File Storage offers fully managed file shares in the cloud that are accessible via the industry standard Server Message Block (SMB) protocol, Network File System (NFS) protocol, and REST API. File shares can be mounted concurrently by cloud or on-premises deployments. SMB file shares are accessible from Windows, Linux, and macOS clients. NFS file shares are accessible from Linux clients.</td></tr><tr><td>eira:definitionSource</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Microsoft</td></tr><tr><td>eira:definitionSourceReference</td><td class="convertlinks no-margin" style="white-space:pre-wrap">https://learn.microsoft.com/en-us/azure/storage/files/storage-files-introduction</td></tr><tr><td>skos:example</td><td class="convertlinks no-margin" style="white-space:pre-wrap">The following implementation is an example on how this specific Architecture Building Block (ABB) can be instantiated as a Solution Building Block (SBB): Central VIES is deployed on a cloud provider. The solution suggests using a managed kubernetes service for deploying most of the runtimes. The solution also requires file storage for backup files which are generated as part of the backup/restore service. VIES Solution requires a shared File System mechanism which is not attached to a particular instance/virtual machine, also does not require to support high throughput values in terms of i/o operations. Thus, Azure Files copes with this requirement.</td></tr><tr><td>eira:iopSaliency</td><td class="convertlinks no-margin" style="white-space:pre-wrap">File Storage ABB is salient for technical interoperability because it set up the data integration mechanism based on different files. This kind of file storage permit also ensures data provenance of the information considering file modification and creation.</td></tr><tr><td>skos:note</td><td class="convertlinks no-margin" style="white-space:pre-wrap"></td></tr><tr><td>eira:concept</td><td class="convertlinks no-margin" style="white-space:pre-wrap">eira:SolutionBuildingBlock</td></tr><tr><td>eira:iopDimension</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Structural IoP</td></tr><tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">TVI-Central VIES Deployment Model</td></tr>
 							</tbody>
 						</table>
 					</div>
@@ -97,11 +97,11 @@ Last modification: 29/04/2024</div>
 								</tr>
 							</thead>
 							<tbody>
-								<tr id="used-in-views-id-ca56ca5547194ba98f5bf677a8f7f1a4">
-																	<td><a href="../views/id-ca56ca5547194ba98f5bf677a8f7f1a4.html" target="view" title="TVI-Data Management and Knowledge Discovery Infrastructure Enablers [Traceability]"> TVI-Data Management and Knowledge Discovery Infrastructure Enablers [Traceability] </a></td>
-																	<td><span class="i18n-viewpoint-layered" /></td>
-																</tr><tr id="used-in-views-id-7938565aafcb450ea64d4303d3ecf818">
+								<tr id="used-in-views-id-7938565aafcb450ea64d4303d3ecf818">
 																	<td><a href="../views/id-7938565aafcb450ea64d4303d3ecf818.html" target="view" title="TVI-Central VIES Deployment Model"> TVI-Central VIES Deployment Model </a></td>
+																	<td><span class="i18n-viewpoint-layered" /></td>
+																</tr><tr id="used-in-views-id-ca56ca5547194ba98f5bf677a8f7f1a4">
+																	<td><a href="../views/id-ca56ca5547194ba98f5bf677a8f7f1a4.html" target="view" title="TVI-Data Management and Knowledge Discovery Infrastructure Enablers [Traceability]"> TVI-Data Management and Knowledge Discovery Infrastructure Enablers [Traceability] </a></td>
 																	<td><span class="i18n-viewpoint-layered" /></td>
 																</tr>
 							</tbody>
@@ -121,7 +121,7 @@ Last modification: 29/04/2024</div>
 											<td><a href="../elements/id-b2841dab9b0343daa1ee6ead48a16ff3.html" target="element" title=""></a></td>
 											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
 											<td><a href="../elements/id-408ac68c2b8248f991eba2fe3f1eb99b.html" target="element"> {XOR}</a></td>
-											<td><a href="../elements/id-ca4be9f0050c49ac8bcf96edab0dc87a.html" target="element"> Azure Files</a></td>
+											<td><a href="../elements/id-ca4be9f0050c49ac8bcf96edab0dc87a.html" target="element"> Cloud Managed File Storage</a></td>
 										</tr>
 							</tbody>
 						</table>

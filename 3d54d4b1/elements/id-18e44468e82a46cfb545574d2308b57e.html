@@ -2,7 +2,7 @@
 <html class="frame" lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
-	<title>Azure</title>
+	<title></title>
 
 	<!-- JQUERY -->
 	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
@@ -21,11 +21,10 @@
 
 		<div class="panel-heading root-panel-heading">
             <!-- Name -->
-               <b>Azure</b>
-
+               <b class="i18n-elementtype-RealizationRelationship"></b>
             <!-- If a View with Viewpoint -->
-			   (<span class="i18n-elementtype-DiagramModelGroup"></span>)
-			   <a class="glyphicon glyphicon-info-sign" id="hint-DiagramModelGroup" target="hint"></a>
+			   (<span class="i18n-elementtype-RealizationRelationship"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-RealizationRelationship" target="hint"></a>
 		</div>
 
 		<div class="panel-body root-panel-body">
@@ -41,15 +40,25 @@
                     <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
 
                     <!-- Analysis -->
+                    	<li role="presentation"><a href="#analysis" aria-controls="analysis" role="tab" data-toggle="tab" class="i18n-analysis"></a></li>
 
-						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
-						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
-                    <!-- Model, Query Tab -->
 				</ul>
 
 				<!-- Tab panes -->
 				<div class="tab-content">
 					<div role="tabpanel" class="tab-pane active" id="documentation">
+							<br>
+							<b class="i18n-relation-source"></b>
+								<a href="../elements/id-63942fb26a734459bd5e3eefa96ebdb2.html" target="element">
+									Change Program (Work Package 3a)
+								</a>
+							<br>
+							<b class="i18n-relation-target"></b>
+								<a href="../elements/id-8bbc0a1f2fb049998dc2702ca5562a69.html" target="element">
+									Adopted ViDA legislation transposed
+								</a>
+							<br>
+							<br>
 						<div class="convertlinks documentation" style="white-space:pre-wrap"></div>
 					</div>
 					<div role="tabpanel" class="tab-pane" id="properties">
@@ -74,6 +83,10 @@
 								</tr>
 							</thead>
 							<tbody>
+								<tr id="used-in-views-id-2ba889f6aef24571bc68151c760f146e">
+																	<td><a href="../views/id-2ba889f6aef24571bc68151c760f146e.html" target="view" title="41 PAAF IDPS Roadmap view WP 3"> 41 PAAF IDPS Roadmap view WP 3 </a></td>
+																	<td><span class="i18n-viewpoint-layered" /></td>
+																</tr>
 							</tbody>
 						</table>
 						<table class="table table-striped table-hover table-condensed" id="model-relations">
@@ -90,45 +103,6 @@
 							</tbody>
 						</table>
 					</div>
-						<div role="tabpanel" class="tab-pane" id="elements">
-							<table class="table table-striped table-hover table-condensed">
-								<thead>
-									<tr>
-										<th class="i18n-name"></th>
-										<th class="i18n-type"></th>
-									</tr>
-								</thead>
-								<tbody>
-											<tr>
-											    <td> <a href="../elements/id-9d41d5ab5a9648babcb55f936ebcedde.html" target="element"> Azure Kubernetes Service </a> </td>
-											    <td> <a href="../elements/id-9d41d5ab5a9648babcb55f936ebcedde.html" target="element" class="i18n-elementtype-TechnologyService">
-											    </a> </td>
-											</tr>
-
-											<tr>
-											    <td> <a href="../elements/id-b8a1a2d25cea4282bd489b47bc686d76.html" target="element"> Azure Container Registry </a> </td>
-											    <td> <a href="../elements/id-b8a1a2d25cea4282bd489b47bc686d76.html" target="element" class="i18n-elementtype-TechnologyService">
-											    </a> </td>
-											</tr>
-
-
-								</tbody>
-							</table>
-						</div>
-						<div role="tabpanel" class="tab-pane" id="relationships">
-							<table class="table table-striped table-hover table-condensed">
-								<thead>
-									<tr>
-										<th class="i18n-name"></th>
-										<th class="i18n-type"></th>
-										<th class="i18n-source"></th>
-										<th class="i18n-target"></th>
-									</tr>
-								</thead>
-								<tbody>
-								</tbody>
-							</table>
-						</div>
 			  </div>
 			</div>
 		</div>
