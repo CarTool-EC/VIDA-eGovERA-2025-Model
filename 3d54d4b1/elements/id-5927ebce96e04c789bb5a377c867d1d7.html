@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Junction</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Junction</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-Junction"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-Junction" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+                    <!-- Analysis -->
+                    	<li role="presentation"><a href="#analysis" aria-controls="analysis" role="tab" data-toggle="tab" class="i18n-analysis"></a></li>
+
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap"></div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr><td>eira:view</td><td class="convertlinks no-margin" style="white-space:pre-wrap">High Level view</td></tr>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr id="used-in-views-7226f4dc-d652-4e11-ad1d-d80419c5bacc">
+																	<td><a href="../views/7226f4dc-d652-4e11-ad1d-d80419c5bacc.html" target="view" title="Highlevel viewpoint"> Highlevel viewpoint </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+									<tr>
+											<td><a href="../elements/id-3fcb62ccf23a4f7ba5b67d26cb1ead09.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-5927ebce96e04c789bb5a377c867d1d7.html" target="element"> Junction</a></td>
+											<td><a href="../elements/id-50fa2f1606b84e5b8996f87642bbc82e.html" target="element"> Ontology</a></td>
+										</tr>
+									<tr>
+											<td><a href="../elements/id-36cf1cf5b17b42899b69dd7523f7993c.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-c15815154c5442918ca80a3bb417110b.html" target="element"> Data</a></td>
+											<td><a href="../elements/id-5927ebce96e04c789bb5a377c867d1d7.html" target="element"> Junction</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-3c7fddd587f547329940384d3ec218e0.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-911d4fbd7d8b4c179f441c4b298af714.html" target="element"> Information</a></td>
+											<td><a href="../elements/id-5927ebce96e04c789bb5a377c867d1d7.html" target="element"> Junction</a></td>
+										</tr>
+							</tbody>
+						</table>
+					</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>

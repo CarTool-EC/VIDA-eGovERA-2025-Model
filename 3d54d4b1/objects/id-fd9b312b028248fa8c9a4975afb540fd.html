@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>VIDA</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>VIDA</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-DiagramModelGroup"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-DiagramModelGroup" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+                    <!-- Analysis -->
+
+						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap"></div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+						<div role="tabpanel" class="tab-pane" id="elements">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<tr>
+											    <td> <a href="../elements/id-5bf416ee28144f8c96aa5ce72d0dd8a0.html" target="element"> Reporting of B2B intra-community e-invoices data to the EC </a> </td>
+											    <td> <a href="../elements/id-5bf416ee28144f8c96aa5ce72d0dd8a0.html" target="element" class="i18n-elementtype-Capability">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-e943c25b9d41406d8e35e857313bc9b1.html" target="element"> Secure access to data of B2B intra-community e-invoices </a> </td>
+											    <td> <a href="../elements/id-e943c25b9d41406d8e35e857313bc9b1.html" target="element" class="i18n-elementtype-Capability">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-022a7b198d444540b472ec3085010671.html" target="element"> Governance of intra-community e-invoices data </a> </td>
+											    <td> <a href="../elements/id-022a7b198d444540b472ec3085010671.html" target="element" class="i18n-elementtype-BusinessService">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-de82fd77051b41209c127c3f8230c11c.html" target="element"> Transmission of intra-community e-invoices data to the central VIES </a> </td>
+											    <td> <a href="../elements/id-de82fd77051b41209c127c3f8230c11c.html" target="element" class="i18n-elementtype-BusinessService">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-01ece70dfc9140a2be4191e97afb1fcf.html" target="element"> Verification of intra-community e-invoices data </a> </td>
+											    <td> <a href="../elements/id-01ece70dfc9140a2be4191e97afb1fcf.html" target="element" class="i18n-elementtype-BusinessService">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-87c6ecac22504e538d4388622bcc19ed.html" target="element"> Authentication to access intra-community e-invoices data </a> </td>
+											    <td> <a href="../elements/id-87c6ecac22504e538d4388622bcc19ed.html" target="element" class="i18n-elementtype-BusinessService">
+											    </a> </td>
+											</tr>
+
+
+								</tbody>
+							</table>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="relationships">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+										<th class="i18n-source"></th>
+										<th class="i18n-target"></th>
+									</tr>
+								</thead>
+								<tbody>
+																	<tr>
+																		<td> <a href="../elements/id-7cae4b3c03b346acad877925968e6a8b.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-7cae4b3c03b346acad877925968e6a8b.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-022a7b198d444540b472ec3085010671.html" target="element"> Governance of intra-community e-invoices data </a> </td>
+																		<td> <a href="../elements/id-e943c25b9d41406d8e35e857313bc9b1.html" target="element"> Secure access to data of B2B intra-community e-invoices </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-f213bd5f731f4c5c8f315f0cb81a7bac.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-f213bd5f731f4c5c8f315f0cb81a7bac.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-022a7b198d444540b472ec3085010671.html" target="element"> Governance of intra-community e-invoices data </a> </td>
+																		<td> <a href="../elements/id-7889dfb93e564eb6970468d034f489c2.html" target="element"> Data Governance </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-698b7a94a59e4197922741f436502388.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-698b7a94a59e4197922741f436502388.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-de82fd77051b41209c127c3f8230c11c.html" target="element"> Transmission of intra-community e-invoices data to the central VIES </a> </td>
+																		<td> <a href="../elements/id-5bf416ee28144f8c96aa5ce72d0dd8a0.html" target="element"> Reporting of B2B intra-community e-invoices data to the EC </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-09a87ea999d14a269e9df641b42dde3f.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-09a87ea999d14a269e9df641b42dde3f.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-01ece70dfc9140a2be4191e97afb1fcf.html" target="element"> Verification of intra-community e-invoices data </a> </td>
+																		<td> <a href="../elements/id-5bf416ee28144f8c96aa5ce72d0dd8a0.html" target="element"> Reporting of B2B intra-community e-invoices data to the EC </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-bae41893b03748218ca90471d10a7807.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-bae41893b03748218ca90471d10a7807.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-87c6ecac22504e538d4388622bcc19ed.html" target="element"> Authentication to access intra-community e-invoices data </a> </td>
+																		<td> <a href="../elements/id-e943c25b9d41406d8e35e857313bc9b1.html" target="element"> Secure access to data of B2B intra-community e-invoices </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-e6014501749f414b829f59e5c6ad9728.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-e6014501749f414b829f59e5c6ad9728.html" target="element" class="i18n-elementtype-SpecializationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-87c6ecac22504e538d4388622bcc19ed.html" target="element"> Authentication to access intra-community e-invoices data </a> </td>
+																		<td> <a href="../elements/id-64a808e6c3e8460286f18a119f77fa9e.html" target="element"> eIdentification </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-e53f9026d8aa49e9ab86d15316dd6c27.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-e53f9026d8aa49e9ab86d15316dd6c27.html" target="element" class="i18n-elementtype-SpecializationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-87c6ecac22504e538d4388622bcc19ed.html" target="element"> Authentication to access intra-community e-invoices data </a> </td>
+																		<td> <a href="../elements/id-a4b9bf70803e47e8ac5469b7f5c67e08.html" target="element"> Secure Access Control </a> </td>
+																	</tr>
+
+
+								</tbody>
+							</table>
+						</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>
